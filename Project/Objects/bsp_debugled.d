@@ -1,6 +1,6 @@
-./objects/main.o: ..\APP\main.c ..\APP\main.h \
-  ..\Firmware\CMSIS\Include\gd32f30x.h ..\Firmware\CMSIS\core_cm4.h \
-  D:\keil5\ARM\ARMCLANG\include\stdint.h \
+./objects/bsp_debugled.o: ..\Modules\BSP\src\bsp_debugled.c \
+  ..\Modules\BSP\inc\bsp_debugled.h ..\Firmware\CMSIS\Include\gd32f30x.h \
+  ..\Firmware\CMSIS\core_cm4.h D:\keil5\ARM\ARMCLANG\include\stdint.h \
   ..\Firmware\CMSIS\core_cmInstr.h ..\Firmware\CMSIS\core_cmFunc.h \
   ..\Firmware\CMSIS\core_cm4_simd.h \
   ..\Firmware\CMSIS\Include\system_gd32f30x.h \
@@ -29,7 +29,7 @@
   ..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h \
   ..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h \
   ..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h \
+  ..\APP\app.h ..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h \
   D:\keil5\ARM\ARMCLANG\include\stddef.h \
   ..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h \
   ..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h \
@@ -38,5 +38,5 @@
   ..\FreeRTOS\FreeRTOS-Kernel\portable\GCC\ARM_CM4F\portmacro.h \
   ..\FreeRTOS\FreeRTOS-Kernel\include\mpu_wrappers.h \
   ..\FreeRTOS\FreeRTOS-Kernel\include\task.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\include\list.h ..\APP\app.h \
-  ..\Modules\BSP\inc\bsp_debugled.h ..\Modules\Service\srv_breatheled.h
+  ..\FreeRTOS\FreeRTOS-Kernel\include\list.h \
+  ..\Modules\Service\srv_breatheled.h

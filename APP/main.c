@@ -1,5 +1,14 @@
-#include "gd32f30x.h" 
-#include "FreeRTOS.h"
+#include "main.h"
+
 int main(void) { 
+    xTaskCreate(
+        srv_breatheled_task,
+        "Breather_LED",
+        configMINIMAL_STACK_SIZE,
+        NULL,
+        tskIDLE_PRIORITY,
+        NULL
+    );
+    vTaskStartScheduler();
     while(1);
  }

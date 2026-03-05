@@ -14,16 +14,16 @@
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
-          <Device>GD32F307ZG</Device>
+          <Device>GD32F303RE</Device>
           <Vendor>GigaDevice</Vendor>
           <PackID>GigaDevice.GD32F30x_DFP.2.2.1</PackID>
           <PackURL>https://gd32mcu.com/data/documents/pack/</PackURL>
-          <Cpu>IRAM(0x20000000,0x018000) IROM(0x08000000,0x0100000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
+          <Cpu>IRAM(0x20000000,0x010000) IROM(0x08000000,0x080000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
-          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0GD32F30x_CL -FS08000000 -FL0100000 -FP0($$Device:GD32F307ZG$Flash\GD32F30x_CL.FLM))</FlashDriverDll>
+          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0GD32F30x_HD -FS08000000 -FL080000 -FP0($$Device:GD32F303RE$Flash\GD32F30x_HD.FLM))</FlashDriverDll>
           <DeviceId>0</DeviceId>
-          <RegisterFile>$$Device:GD32F307ZG$Device\Include\gd32f30x.h</RegisterFile>
+          <RegisterFile>$$Device:GD32F303RE$Device\Include\gd32f30x.h</RegisterFile>
           <MemoryEnv></MemoryEnv>
           <Cmp></Cmp>
           <Asm></Asm>
@@ -33,7 +33,7 @@
           <SLE66CMisc></SLE66CMisc>
           <SLE66AMisc></SLE66AMisc>
           <SLE66LinkerMisc></SLE66LinkerMisc>
-          <SFDFile>$$Device:GD32F307ZG$SVD\GD32F30x_CL.svd</SFDFile>
+          <SFDFile>$$Device:GD32F303RE$SVD\GD32F30x_HD.svd</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
           <BinPath></BinPath>
@@ -247,12 +247,12 @@
               <IRAM>
                 <Type>0</Type>
                 <StartAddress>0x20000000</StartAddress>
-                <Size>0x18000</Size>
+                <Size>0x10000</Size>
               </IRAM>
               <IROM>
                 <Type>1</Type>
                 <StartAddress>0x8000000</StartAddress>
-                <Size>0x100000</Size>
+                <Size>0x80000</Size>
               </IROM>
               <XRAM>
                 <Type>0</Type>
@@ -277,7 +277,7 @@
               <OCR_RVCT4>
                 <Type>1</Type>
                 <StartAddress>0x8000000</StartAddress>
-                <Size>0x100000</Size>
+                <Size>0x80000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
                 <Type>1</Type>
@@ -302,7 +302,7 @@
               <OCR_RVCT9>
                 <Type>0</Type>
                 <StartAddress>0x20000000</StartAddress>
-                <Size>0x18000</Size>
+                <Size>0x10000</Size>
               </OCR_RVCT9>
               <OCR_RVCT10>
                 <Type>0</Type>
@@ -338,9 +338,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>GD32F30X_CL, USE_STDPERIPH_DRIVER</Define>
+              <Define>GD32F30X_HD, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Firmware;..\Firmware\CMSIS\Include;..\Firmware\CMSIS;..\Firmware\GD32F30x_standard_peripheral\Include;..\FreeRTOS\FreeRTOS-Kernel\include;..\FreeRTOS\FreeRTOS-Kernel;..\FreeRTOS\FreeRTOS-Kernel\portable\GCC\ARM_CM4F;..\APP</IncludePath>
+              <IncludePath>..\Firmware;..\Firmware\CMSIS\Include;..\Firmware\CMSIS;..\Firmware\GD32F30x_standard_peripheral\Include;..\FreeRTOS\FreeRTOS-Kernel\include;..\FreeRTOS\FreeRTOS-Kernel;..\FreeRTOS\FreeRTOS-Kernel\portable\GCC\ARM_CM4F;..\APP;..\Modules\BSP\inc;..\Modules\Service</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -403,12 +403,26 @@
         </Group>
         <Group>
           <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_debugled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Modules\BSP\src\bsp_debugled.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>OSAL</GroupName>
         </Group>
         <Group>
           <GroupName>Service</GroupName>
+          <Files>
+            <File>
+              <FileName>src_breatheled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Modules\Service\src_breatheled.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>FreeRTOS</GroupName>
@@ -589,14 +603,14 @@
           <GroupName>Startup</GroupName>
           <Files>
             <File>
-              <FileName>startup_gd32f30x_cl.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\Firmware\CMSIS\startup_gd32f30x_cl.s</FilePath>
-            </File>
-            <File>
               <FileName>system_gd32f30x.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Firmware\CMSIS\system_gd32f30x.c</FilePath>
+            </File>
+            <File>
+              <FileName>startup_gd32f30x_hd.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Firmware\CMSIS\startup_gd32f30x_hd.s</FilePath>
             </File>
           </Files>
         </Group>
