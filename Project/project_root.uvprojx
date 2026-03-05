@@ -409,6 +409,11 @@
               <FileType>1</FileType>
               <FilePath>..\Modules\BSP\src\bsp_debugled.c</FilePath>
             </File>
+            <File>
+              <FileName>bsp_74hc595.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Modules\BSP\src\bsp_74hc595.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -421,6 +426,11 @@
               <FileName>src_breatheled.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Modules\Service\src_breatheled.c</FilePath>
+            </File>
+            <File>
+              <FileName>src_74hc595.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Modules\Service\src_74hc595.c</FilePath>
             </File>
           </Files>
         </Group>

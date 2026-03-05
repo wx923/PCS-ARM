@@ -44,7 +44,7 @@
 #define configUSE_TIME_SLICING                     1
 #define configUSE_PORT_OPTIMISED_TASK_SELECTION    0
 #define configUSE_TICKLESS_IDLE                    1
-#define configMAX_PRIORITIES                       5U
+#define configMAX_PRIORITIES                       10U
 #define configMINIMAL_STACK_SIZE                   128U
 #define configMAX_TASK_NAME_LEN                    16U
 #define configTICK_TYPE_WIDTH_IN_BITS              TICK_TYPE_WIDTH_32_BITS
@@ -72,7 +72,7 @@
 
 #define configSUPPORT_STATIC_ALLOCATION              1
 #define configSUPPORT_DYNAMIC_ALLOCATION             1
-#define configTOTAL_HEAP_SIZE                        (10U * 1024u)
+#define configTOTAL_HEAP_SIZE                        (30U * 1024u)
 #define configAPPLICATION_ALLOCATED_HEAP             0
 #define configSTACK_ALLOCATION_FROM_SEPARATE_HEAP    0
 #define configUSE_MINI_LIST_ITEM                     0

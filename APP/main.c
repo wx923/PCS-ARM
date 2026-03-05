@@ -6,9 +6,20 @@ int main(void) {
         "Breather_LED",
         configMINIMAL_STACK_SIZE,
         NULL,
-        tskIDLE_PRIORITY+3,
+        1,
         NULL
     );
+
+    xTaskCreate(
+        srv_74hc595_task,
+        "74HC595_Test",
+        configMINIMAL_STACK_SIZE,
+        NULL,
+        2,
+        NULL
+    );
+
+
     vTaskStartScheduler();
     while(1);
  }

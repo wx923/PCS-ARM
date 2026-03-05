@@ -1,8 +1,8 @@
 Dependencies for Project 'project_root', Target 'project_root': (DO NOT MODIFY !)
 CompilerVersion: 6210000::V6.21::ARMCLANG
 F (..\Firmware\CMSIS\Include\gd32f30x_libopt.h)(0x6982FFDC)()
-F (..\APP\main.c)(0x69A8FE24)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware -I ../Firmware/CMSIS/Include -I ../Firmware/CMSIS -I ../Firmware/GD32F30x_standard_peripheral/Include -I ../FreeRTOS/FreeRTOS-Kernel/include -I ../FreeRTOS/FreeRTOS-Kernel -I ../FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F -I ../APP -I ../Modules/BSP/inc -I ../Modules/Service-ID:/keil5/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MD)
-I (..\Firmware\CMSIS\Include\gd32f30x.hø.\Firmware\CMSIS\core_cm4.h)(0x00000000)
+F (..\APP\main.c)(0x69A94FAE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware -I ../Firmware/CMSIS/Include -I ../Firmware/CMSIS -I ../Firmware/GD32F30x_standard_peripheral/Include -I ../FreeRTOS/FreeRTOS-Kernel/include -I ../FreeRTOS/FreeRTOS-Kernel -I ../FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F -I ../APP -I ../Modules/BSP/inc -I ../Modules/Service-ID:/keil5/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MD)
+I (..\Firmware\CMSIS\Include\gd32f30x.hà.\Firmware\CMSIS\core_cm4.h)(0x00000000)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
 I (..\Firmware\CMSIS\core_cmInstr.hd.\Firmware\CMSIS\core_cmFunc.h)(0x00000000)
 I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
@@ -34,7 +34,7 @@ I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x6982FFDC)
 I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x6982FFDC)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -43,9 +43,9 @@ I (..\FreeRTOS\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\task.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\list.h)(0x68F8972E)
 I (..\Modules\BSP\inc\bsp_debugled.hd.\Modules\Service\srv_breatheled.h)(0x00000000)
-F (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)()
+F (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)()
 F (..\Modules\BSP\src\bsp_debugled.c)(0x69A8F714)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware -I ../Firmware/CMSIS/Include -I ../Firmware/CMSIS -I ../Firmware/GD32F30x_standard_peripheral/Include -I ../FreeRTOS/FreeRTOS-Kernel/include -I ../FreeRTOS/FreeRTOS-Kernel -I ../FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F -I ../APP -I ../Modules/BSP/inc -I ../Modules/Service-ID:/keil5/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/bsp_debugled.o -MD)
-I (..\Modules\BSP\inc\bsp_debugled.h)(0x69A8FFCF)
+I (..\Modules\BSP\inc\bsp_debugled.h)(0x69A91AE7)
 I (..\Firmware\CMSIS\core_cm4.hl:\keil5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
 I (..\Firmware\CMSIS\core_cmInstr.he.\Firmware\CMSIS\core_cmFunc.h)(0x00000000)
 I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
@@ -77,7 +77,7 @@ I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x6982FFDC)
 I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x6982FFDC)
 I (..\APP\app.hG.\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x00000000)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -86,7 +86,38 @@ I (..\FreeRTOS\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\task.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\list.h)(0x68F8972E)
 I (..\Modules\Service\srv_breatheled.h)(0x69A8F90B)
-F (..\Modules\Service\src_breatheled.c)(0x69A8FFF9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware -I ../Firmware/CMSIS/Include -I ../Firmware/CMSIS -I ../Firmware/GD32F30x_standard_peripheral/Include -I ../FreeRTOS/FreeRTOS-Kernel/include -I ../FreeRTOS/FreeRTOS-Kernel -I ../FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F -I ../APP -I ../Modules/BSP/inc -I ../Modules/Service-ID:/keil5/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/src_breatheled.o -MD)
+F (..\Modules\BSP\src\bsp_74hc595.c)(0x69A9503B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware -I ../Firmware/CMSIS/Include -I ../Firmware/CMSIS -I ../Firmware/GD32F30x_standard_peripheral/Include -I ../FreeRTOS/FreeRTOS-Kernel/include -I ../FreeRTOS/FreeRTOS-Kernel -I ../FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F -I ../APP -I ../Modules/BSP/inc -I ../Modules/Service-ID:/keil5/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/bsp_74hc595.o -MD)
+I (..\Modules\BSP\inc\bsp_74hc595.h)(0x69A9503B)
+I (..\Firmware\CMSIS\core_cm4.h9:\keil5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
+I (..\Firmware\CMSIS\core_cmInstr.he.\Firmware\CMSIS\core_cmFunc.h)(0x00000000)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\Include\gd32f30x_libopt.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x6982FFDC)
+F (..\Modules\Service\src_breatheled.c)(0x69A92C7E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware -I ../Firmware/CMSIS/Include -I ../Firmware/CMSIS -I ../Firmware/GD32F30x_standard_peripheral/Include -I ../FreeRTOS/FreeRTOS-Kernel/include -I ../FreeRTOS/FreeRTOS-Kernel -I ../FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F -I ../APP -I ../Modules/BSP/inc -I ../Modules/Service-ID:/keil5/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/src_breatheled.o -MD)
 I (..\Modules\Service\srv_breatheled.h)(0x69A8F90B)
 I (..\Firmware\CMSIS\Include\gd32f30x.h..\Firmware\CMSIS\core_cm4.h)(0x00000000)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
@@ -120,7 +151,7 @@ I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x6982FFDC)
 I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x6982FFDC)
 I (..\APP\app.hG.\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x00000000)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -128,11 +159,55 @@ I (..\FreeRTOS\FreeRTOS-Kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\task.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\list.h)(0x68F8972E)
+F (..\Modules\Service\src_74hc595.c)(0x69A950AA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware -I ../Firmware/CMSIS/Include -I ../Firmware/CMSIS -I ../Firmware/GD32F30x_standard_peripheral/Include -I ../FreeRTOS/FreeRTOS-Kernel/include -I ../FreeRTOS/FreeRTOS-Kernel -I ../FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F -I ../APP -I ../Modules/BSP/inc -I ../Modules/Service-ID:/keil5/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/src_74hc595.o -MD)
+I (..\Modules\Service\src_74hc595.h)(0x69A94F42)
+I (..\Firmware\CMSIS\Include\gd32f30x.hP.\Firmware\CMSIS\core_cm4.h)(0x00000000)
+I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\Firmware\CMSIS\core_cmInstr.hd.\Firmware\CMSIS\core_cmFunc.h)(0x00000000)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\Include\gd32f30x_libopt.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x6982FFDC)
+I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
+I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
+I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
+I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
+I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
+I (..\FreeRTOS\FreeRTOS-Kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x68F8972E)
+I (..\FreeRTOS\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x68F8972E)
+I (..\FreeRTOS\FreeRTOS-Kernel\include\task.h)(0x68F8972E)
+I (..\FreeRTOS\FreeRTOS-Kernel\include\list.h)(0x68F8972E)
+I (..\Modules\BSP\inc\bsp_debugled.hd.\Modules\Service\srv_breatheled.h)(0x00000000)
+I (..\Modules\BSP\inc\bsp_74hc595.h)(0x69A9503B)
 F (..\FreeRTOS\FreeRTOS-Kernel\croutine.c)(0x68F8972E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware -I ../Firmware/CMSIS/Include -I ../Firmware/CMSIS -I ../Firmware/GD32F30x_standard_peripheral/Include -I ../FreeRTOS/FreeRTOS-Kernel/include -I ../FreeRTOS/FreeRTOS-Kernel -I ../FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F -I ../APP -I ../Modules/BSP/inc -I ../Modules/Service-ID:/keil5/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/croutine.o -MD)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -146,7 +221,7 @@ I (D:\keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -161,7 +236,7 @@ I (D:\keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -174,7 +249,7 @@ I (D:\keil5\ARM\ARMCLANG\include\string.h)(0x6569B012)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -188,7 +263,7 @@ I (D:\keil5\ARM\ARMCLANG\include\string.h)(0x6569B012)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -203,7 +278,7 @@ I (D:\keil5\ARM\ARMCLANG\include\string.h)(0x6569B012)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -218,7 +293,7 @@ I (D:\keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -234,7 +309,7 @@ I (D:\keil5\ARM\ARMCLANG\include\string.h)(0x6569B012)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -246,7 +321,7 @@ F (..\FreeRTOS\FreeRTOS-Kernel\portable\GCC\ARM_CM4F\port.c)(0x68F8972E)(-xc -st
 I (..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h)(0x68F8972E)
 I (D:\keil5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A8DCC6)
+I (..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h)(0x69A94C30)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\portable.h)(0x68F8972E)
 I (..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x68F8972E)
@@ -1002,7 +1077,7 @@ I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
 I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x6982FFDC)
 I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x6982FFDC)
 F (..\Firmware\CMSIS\system_gd32f30x.c)(0x6986B554)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware -I ../Firmware/CMSIS/Include -I ../Firmware/CMSIS -I ../Firmware/GD32F30x_standard_peripheral/Include -I ../FreeRTOS/FreeRTOS-Kernel/include -I ../FreeRTOS/FreeRTOS-Kernel -I ../FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F -I ../APP -I ../Modules/BSP/inc -I ../Modules/Service-ID:/keil5/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/system_gd32f30x.o -MD)
-I (..\Firmware\CMSIS\Include\gd32f30x.hø.\Firmware\CMSIS\core_cm4.h)(0x00000000)
+I (..\Firmware\CMSIS\Include\gd32f30x.he.\Firmware\CMSIS\core_cm4.h)(0x00000000)
 I (D:\keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
 I (..\Firmware\CMSIS\core_cmInstr.hd.\Firmware\CMSIS\core_cmFunc.h)(0x00000000)
 I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
