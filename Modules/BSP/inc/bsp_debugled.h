@@ -4,7 +4,7 @@
 #include "gd32f30x.h"
 #include "app.h"
 /*定义调试LED端口和引脚*/
-#define DEBUGLED_PORT GPIOA
+#define DEBUGLED_PORT GPIOB
 #define DEBUGLED_PIN GPIO_PIN_7
 
 /*led 状态*/
