@@ -10,5 +10,6 @@
 
 /* ==================== 服务层头文件 ==================== */
 #include "srv_breatheled.h"    // 呼吸灯服务
+#include "src_dsp_status.h"    // 数码管服务
 
 #endif

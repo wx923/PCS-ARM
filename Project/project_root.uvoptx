@@ -295,8 +295,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Modules\Service\src_74hc595.c</PathWithFileName>
-      <FilenameWithoutPath>src_74hc595.c</FilenameWithoutPath>
+      <PathWithFileName>..\Modules\Service\src_dsp_status.c</PathWithFileName>
+      <FilenameWithoutPath>src_dsp_status.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

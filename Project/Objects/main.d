@@ -39,4 +39,5 @@
   ..\FreeRTOS\FreeRTOS-Kernel\include\mpu_wrappers.h \
   ..\FreeRTOS\FreeRTOS-Kernel\include\task.h \
   ..\FreeRTOS\FreeRTOS-Kernel\include\list.h ..\APP\app.h \
-  ..\Modules\BSP\inc\bsp_debugled.h ..\Modules\Service\srv_breatheled.h
+  ..\Modules\BSP\inc\bsp_debugled.h ..\Modules\Service\srv_breatheled.h \
+  ..\Modules\Service\src_dsp_status.h ..\Modules\BSP\inc\bsp_74hc595.h

@@ -428,9 +428,9 @@
               <FilePath>..\Modules\Service\src_breatheled.c</FilePath>
             </File>
             <File>
-              <FileName>src_74hc595.c</FileName>
+              <FileName>src_dsp_status.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Modules\Service\src_74hc595.c</FilePath>
+              <FilePath>..\Modules\Service\src_dsp_status.c</FilePath>
             </File>
           </Files>
         </Group>

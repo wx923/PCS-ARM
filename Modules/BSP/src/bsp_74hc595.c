@@ -28,7 +28,7 @@ void bsp_74hc595_init(void){
     HC595_RCLK_LOW();
     HC595_OE_DISABLE();
 
-    for(int i=0;i<8;i++){
+    for(int i=0;i<16;i++){
         _74hc595_write_bit(0);
     }
 

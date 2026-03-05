@@ -11,8 +11,8 @@ int main(void) {
     );
 
     xTaskCreate(
-        srv_74hc595_task,
-        "74HC595_Test",
+        src_dsp_status_task,
+        "Dsp_Status",
         configMINIMAL_STACK_SIZE,
         NULL,
         2,

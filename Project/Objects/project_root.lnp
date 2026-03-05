@@ -1,7 +1,9 @@
 --cpu=Cortex-M4.fp.sp
 ".\objects\main.o"
 ".\objects\bsp_debugled.o"
+".\objects\bsp_74hc595.o"
 ".\objects\src_breatheled.o"
+".\objects\src_dsp_status.o"
 ".\objects\croutine.o"
 ".\objects\event_groups.o"
 ".\objects\list.o"
