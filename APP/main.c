@@ -1,6 +1,7 @@
 #include "main.h"
 
 int main(void) { 
+    srv_eeprom_init_with_data(100);
     xTaskCreate(
         srv_breatheled_task,
         "Breather_LED",

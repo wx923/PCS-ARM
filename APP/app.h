@@ -10,6 +10,7 @@
 
 /* ==================== 服务层头文件 ==================== */
 #include "srv_breatheled.h"    // 呼吸灯服务
-#include "src_dsp_status.h"    // 数码管服务
+#include "srv_dsp_status.h"    // 数码管服务
+#include "srv_eeprom.h"        // EEPROM服务
 
 #endif

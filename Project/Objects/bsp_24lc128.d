@@ -1,5 +1,5 @@
-./objects/bsp_debugled.o: ..\Modules\BSP\src\bsp_debugled.c \
-  ..\Modules\BSP\inc\bsp_debugled.h ..\Firmware\CMSIS\Include\gd32f30x.h \
+./objects/bsp_24lc128.o: ..\Modules\BSP\src\bsp_24lc128.c \
+  ..\Modules\BSP\inc\bsp_24lc128.h ..\Firmware\CMSIS\Include\gd32f30x.h \
   ..\Firmware\CMSIS\core_cm4.h D:\keil5\ARM\ARMCLANG\include\stdint.h \
   ..\Firmware\CMSIS\core_cmInstr.h ..\Firmware\CMSIS\core_cmFunc.h \
   ..\Firmware\CMSIS\core_cm4_simd.h \
@@ -28,17 +28,4 @@
   ..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h \
   ..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h \
   ..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h \
-  ..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h \
-  ..\APP\app.h ..\FreeRTOS\FreeRTOS-Kernel\include\FreeRTOS.h \
-  D:\keil5\ARM\ARMCLANG\include\stddef.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\FreeRTOSConfig.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\include\projdefs.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\include\portable.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\include\deprecated_definitions.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\portable\GCC\ARM_CM4F\portmacro.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\include\mpu_wrappers.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\include\task.h \
-  ..\FreeRTOS\FreeRTOS-Kernel\include\list.h \
-  ..\Modules\Service\srv_breatheled.h \
-  ..\Modules\Service\srv_dsp_status.h ..\Modules\BSP\inc\bsp_74hc595.h \
-  ..\Modules\Service\srv_eeprom.h ..\Modules\BSP\inc\bsp_24lc128.h
+  ..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h
